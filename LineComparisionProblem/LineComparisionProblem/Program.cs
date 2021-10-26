@@ -10,13 +10,20 @@ namespace LineComparisionProblem
             UC1CalculateLength obj1 = new UC1CalculateLength();
             obj1.calculatecoridinates();*/
 
-/*            Console.WriteLine("Use case2:");
-            UC2ToCheckEquality obj2 = new UC2ToCheckEquality();
-            obj2.ToCheckEquality();*/
+            /* Console.WriteLine("Use case2:");
+               UC2ToCheckEquality obj2 = new UC2ToCheckEquality();
+               obj2.ToCheckEquality();*/
 
-            Console.WriteLine("Use case3:");
+            /*Console.WriteLine("Use case3:");
             UC3CompareToMethod obj3 = new UC3CompareToMethod();
-            obj3.CompareToMethod();
+            obj3.CompareToMethod();*/
+
+          
+
+            Console.WriteLine("Use case4:");
+            CalculateToCompareToAndEquals obj4 = new CalculateToCompareToAndEquals();
+            obj4.check();
+            obj4.computeMethode();
         }
     }
 }
